@@ -10,6 +10,11 @@
             "hash": "4320bbc4983715fa935a70a2be6fa961f01531893e844ccf0a71d071ee9922a3"
         }
     },
+        "homepage": "https://github.com/zyedidia/micro",
+        "checkver": {
+        "url": "https://github.com/zyedidia/micro/releases/tag/nightly",
+        "regex": "micro-(.*)-win64\.zip"
+},
     "extract_dir": "micro-2.0.7-dev.82",
     "bin": "micro.exe"
 }
