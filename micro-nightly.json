@@ -14,6 +14,16 @@
         "checkver": {
         "url": "https://github.com/zyedidia/micro/releases/tag/nightly",
         "regex": "micro-(.*)-win64\.zip"
+},"autoupdate": {
+    "note": "Thanks for using autoupdate, please test your updates!",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zyedidia/micro/releases/download/nightly/micro-$version-win64.zip"
+        },
+        "32bit": {
+            "url": "https://github.com/zyedidia/micro/releases/download/nightly/micro-$version-win32.zip"
+        }
+    }
 },
     "extract_dir": "micro-2.0.7-dev.82",
     "bin": "micro.exe"
